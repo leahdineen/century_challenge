@@ -9,12 +9,13 @@ var drinkSounds = ["alarm.mp3",
 					"DrinkupMeHearties.mp3",
 					"everybodyKnows.mp3",
 					"yoho.mp3"];
-var songCount = 10;
 
 function start(el){
 	$(el).hide();
 	timer();
 }
+
+// some addition
 
 function timer() {
 	if(drinkCount == 100){
